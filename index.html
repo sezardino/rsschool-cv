@@ -14,105 +14,108 @@
     </header>
     <main class="page-main container">
       <section class="cv">
-        <div class="cv__content-wrapper">
-          <img src="./cv-img.jpg" alt="my photo" class="cv__img" />
-          <div class="cv__block">
-            <h2 class="cv__title">My Skills</h2>
-            <ul class="cv__list">
-              <li class="cv__list-item">HTML</li>
-              <li class="cv__list-item">CSS</li>
-              <li class="cv__list-item">JavaScript</li>
-              <li class="cv__list-item">SASS</li>
-              <li class="cv__list-item">TypeScript</li>
-              <li class="cv__list-item">React(Redux/MobX)</li>
-              <li class="cv__list-item">GIT</li>
-              <li class="cv__list-item">BEM</li>
-              <li class="cv__list-item">Webpack</li>
-              <li class="cv__list-item">WordPress</li>
-            </ul>
+        <h2>Information about Me</h2>
+        <div class="cv__body">
+          <div class="cv__content-wrapper">
+            <img src="./cv-img.jpg" alt="my photo" class="cv__img" />
+            <div class="cv__block">
+              <h3 class="cv__title">My Skills</h2>
+              <ul class="cv__list">
+                <li class="cv__list-item">HTML</li>
+                <li class="cv__list-item">CSS</li>
+                <li class="cv__list-item">JavaScript</li>
+                <li class="cv__list-item">SASS</li>
+                <li class="cv__list-item">TypeScript</li>
+                <li class="cv__list-item">React(Redux/MobX)</li>
+                <li class="cv__list-item">GIT</li>
+                <li class="cv__list-item">BEM</li>
+                <li class="cv__list-item">Webpack</li>
+                <li class="cv__list-item">WordPress</li>
+              </ul>
+            </div>
+            <div class="cv__block">
+              <h3 class="cv__title">Languages:</h2>
+              <ul class="cv__list">
+                <li class="cv__list-item">
+                  <p class="cv__text">English - B1</p>
+                </li>
+                <li class="cv__list-item">
+                  <p class="cv__text">Polish - B2</p>
+                </li>
+                <li class="cv__list-item">
+                  <p class="cv__text">Russian - C1</p>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="cv__block">
-            <h2 class="cv__title">Languages:</h2>
-            <ul class="cv__list">
-              <li class="cv__list-item">
-                <p class="cv__text">English - B1</p>
-              </li>
-              <li class="cv__list-item">
-                <p class="cv__text">Polish - B2</p>
-              </li>
-              <li class="cv__list-item">
-                <p class="cv__text">Russian - C1</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="cv__content-wrapper">
-          <div class="cv__block">
-            <h2 class="cv__title">My contact info:</h2>
-            <ul class="cv__list">
-              <li class="cv__list-item">
-                <a href="mailto:e.arechwa@gmail.com" class="cv__list-link"
-                  >e.arechwa@gmail.com</a
-                >
-              </li>
-              <li class="cv__list-item">
-                <a href="tel:4857648669" class="cv__list-link">+4857648669</a>
-              </li>
-            </ul>
-          </div>
-          <div class="cv__block">
-            <h2 class="cv__title">Few words about me</h2>
-            <p class="cv__text">
-              I am a <b>Junior Front-end Developer</b>. I create websites and
-              web-applications using modern technologies based on modern
-              web-standards. <br />
-              I am always up to date with the latest trends in web-technologies
-              and bestPracticed, and I carry out the tasks entrusted to me
-              accurately and in time.
-            </p>
-          </div>
-          <div class="cv__block">
-            <h2 class="cv__title">Sample Code</h2>
-            <pre class="cv__pre">
-  import {useState} from 'react';
+          <div class="cv__content-wrapper">
+            <div class="cv__block">
+              <h3 class="cv__title">My contact info:</h2>
+              <ul class="cv__list">
+                <li class="cv__list-item">
+                  <a href="mailto:e.arechwa@gmail.com" class="cv__list-link"
+                    >e.arechwa@gmail.com</a
+                  >
+                </li>
+                <li class="cv__list-item">
+                  <a href="tel:4857648669" class="cv__list-link">+4857648669</a>
+                </li>
+              </ul>
+            </div>
+            <div class="cv__block">
+              <h3 class="cv__title">Few words about me</h2>
+              <p class="cv__text">
+                I am a <b>Junior Front-end Developer</b>. I create websites and
+                web-applications using modern technologies based on modern
+                web-standards. <br />
+                I am always up to date with the latest trends in web-technologies
+                and bestPracticed, and I carry out the tasks entrusted to me
+                accurately and in time.
+              </p>
+            </div>
+            <div class="cv__block">
+              <h3 class="cv__title">Sample Code</h2>
+              <pre class="cv__pre">
+    import {useState} from 'react';
 
-  const useToggle = () => {
-    const [active, setActive] = useState(false);
-    const activeChange = () => {
-      setActive((prev) => !prev);
+    const useToggle = () => {
+      const [active, setActive] = useState(false);
+      const activeChange = () => {
+        setActive((prev) => !prev);
+      };
+      return [active, activeChange];
     };
-    return [active, activeChange];
-  };
 
-  export default useToggle;
-            </pre>
-          </div>
-          <div class="cv__block">
-            <h2 class="cv__title">Work Experience</h2>
-            <ul class="cv__list">
-              <li class="cv__list-item">
-                <p class="cv__text">
-                  Junior Front-End Developer GOGOmedia Software House, 01.2021 -
-                  until now.
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div class="cv__block">
-            <h2 class="cv__title">Education</h2>
-            <ul class="cv__list">
-              <li class="cv__list-item">
-                <p class="cv__text">
-                  Student in WSB Warsaw faculty of Informatics
-                </p>
-              </li>
-              <li class="cv__list-item">
-                <p class="cv__text">Student in RSSchool</p>
-              </li>
-              <li class="cv__list-item">
-                <p class="cv__text">Udemy, YouTube...</p>
-              </li>
-            </ul>
+    export default useToggle;
+              </pre>
+            </div>
+            <div class="cv__block">
+              <h3 class="cv__title">Work Experience</h2>
+              <ul class="cv__list">
+                <li class="cv__list-item">
+                  <p class="cv__text">
+                    Junior Front-End Developer GOGOmedia Software House, 01.2021 -
+                    until now.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="cv__block">
+              <h3 class="cv__title">Education</h2>
+              <ul class="cv__list">
+                <li class="cv__list-item">
+                  <p class="cv__text">
+                    Student in WSB Warsaw faculty of Informatics
+                  </p>
+                </li>
+                <li class="cv__list-item">
+                  <p class="cv__text">Student in RSSchool</p>
+                </li>
+                <li class="cv__list-item">
+                  <p class="cv__text">Udemy, YouTube...</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

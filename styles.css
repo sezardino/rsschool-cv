@@ -21,7 +21,7 @@
   margin: 0;
 }
 
-.cv {
+.cv__body {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
