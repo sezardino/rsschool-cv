@@ -52,4 +52,4 @@ Junior Front-End Developer GOGOmedia Software House, 01.2021 - until now.
 
 - English - B1
 - Polish - B2
-- Russian
+- Russian - C1
