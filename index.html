@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="page-main">
-      <header class="header">
-        <h1 class="header__title">Edward Arechwa</h1>
-        <p class="header__subtitle">Junior Front-End Developer</p>
-      </header>
+    <header class="header container">
+      <h1 class="header__title">Edward Arechwa</h1>
+      <p class="header__subtitle">Junior Front-End Developer</p>
+    </header>
+    <main class="page-main container">
       <section class="cv">
         <div class="cv__content-wrapper">
           <img src="./cv-img.jpg" alt="my photo" class="cv__img" />
@@ -24,7 +24,7 @@
               <li class="cv__list-item">JavaScript</li>
               <li class="cv__list-item">SASS</li>
               <li class="cv__list-item">TypeScript</li>
-              <li class="cv__list-item">React/(Redux/MobX)</li>
+              <li class="cv__list-item">React(Redux/MobX)</li>
               <li class="cv__list-item">GIT</li>
               <li class="cv__list-item">BEM</li>
               <li class="cv__list-item">Webpack</li>
@@ -32,7 +32,7 @@
             </ul>
           </div>
           <div class="cv__block">
-            <h2 class="cv__title">Languages what I am know:</h2>
+            <h2 class="cv__title">Languages:</h2>
             <ul class="cv__list">
               <li class="cv__list-item">
                 <p class="cv__text">English - B1</p>
@@ -74,17 +74,17 @@
           <div class="cv__block">
             <h2 class="cv__title">Sample Code</h2>
             <pre class="cv__pre">
-              import {useState} from 'react';
+  import {useState} from 'react';
 
-              const useToggle = () => {
-                const [active, setActive] = useState(false);
-                const activeChange = () => {
-                  setActive((prev) => !prev);
-                };
-                return [active, activeChange];
-              };
+  const useToggle = () => {
+    const [active, setActive] = useState(false);
+    const activeChange = () => {
+      setActive((prev) => !prev);
+    };
+    return [active, activeChange];
+  };
 
-              export default useToggle;
+  export default useToggle;
             </pre>
           </div>
           <div class="cv__block">
@@ -117,5 +117,14 @@
         </div>
       </section>
     </main>
+    <footer class="footer container">
+      <a href="https://github.com/sezardino" class="footer__link"
+        >My GitHub account</a
+      >
+      <p class="footer__copy">2021</p>
+      <a href="https://rs.school/js/" class="footer__course">
+        <img src="./svg.svg" alt="rs school logo" width="100" />
+      </a>
+    </footer>
   </body>
 </html>
