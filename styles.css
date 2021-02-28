@@ -1,0 +1,47 @@
+.page-main {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+}
+
+.header {}
+
+.header__title {}
+
+.header__subtitle {}
+
+.cv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cv__img {
+  width: 250px;
+}
+
+.cv__content-wrapper {
+  margin-right: 25px;
+}
+
+.cv__content-wrapper:last-child {
+  margin-right: 0;
+}
+
+.cv__block {
+  padding: 5px;
+
+  overflow: hidden;
+}
+
+.cv__title {}
+
+.cv__list {}
+
+.cv__list-item {}
+
+.cv__list-link {}
+
+.cv__text {}
+
+.cv__pre {}
